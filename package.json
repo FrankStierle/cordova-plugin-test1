@@ -1,0 +1,53 @@
+{
+  "author": {
+    "name": "Frank Stierle - MWay Solutions"
+  },
+  "cordova": {
+    "id": "cordova-plugin-test1",
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "dependencies": {},
+  "description": "Test1 Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "directories": {},
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://www.mwaysolutions.com",
+  "keywords": [
+    "cordova",
+    "test",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "f.stierle",
+      "email": "f.stierle@mwaysolutions.com"
+    }
+  ],
+  "name": "cordova-plugin-test1",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankStierle/cordova-plugin-test1.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.0.0"
+}
