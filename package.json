@@ -10,6 +10,9 @@
       "browser"
     ]
   },
+  "bugs": {
+    "url": "https://github.com/FrankStierle/cordova-plugin-test1/issues"
+  },
   "dependencies": {},
   "description": "Test1 Plugin",
   "devDependencies": {
