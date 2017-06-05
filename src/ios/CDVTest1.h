@@ -20,7 +20,7 @@
 #import <UIKit/UIKit.h>
 #import <Cordova/CDVPlugin.h>
 
-@interface CDVDevice : CDVPlugin
+@interface CDVTest1 : CDVPlugin
 {}
 
 + (NSString*)cordovaVersion;

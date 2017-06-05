@@ -55,7 +55,6 @@ public class Test1 extends CordovaPlugin {
      */
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
-        Device.uuid = getUuid();
     }
 
     /**
@@ -89,13 +88,7 @@ public class Test1 extends CordovaPlugin {
      * @return
      */
     public String getPlatform() {
-        String platform;
-        if (isAmazonDevice()) {
-            platform = AMAZON_PLATFORM;
-        } else {
-            platform = ANDROID_PLATFORM;
-        }
-        return platform;
+        return ANDROID_PLATFORM;
     }
 
     /**
