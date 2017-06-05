@@ -15,7 +15,7 @@ function onDeviceReady() {
 
 ## Installation
 
-    cordova plugin add cordova-plugin-test1
+   cordova plugin add https://github.com/FrankStierle/cordova-plugin-test1.git
 
 ## Properties
 
